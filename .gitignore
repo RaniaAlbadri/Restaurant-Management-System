@@ -1,0 +1,81 @@
+# Visual Studio / .NET generated directories
+.vs/
+.vscode/
+.idea/
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+[Pp]ublish/
+[Pp]ackages/
+[Aa]rtifacts/
+[Tt]est[Rr]esults/
+
+# IDE, MSBuild, generated diagnostics
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.csproj.user
+*.rsuser
+*.cache
+*.tlog
+*.lastbuildstate
+*.binlog
+*.log
+*.tmp
+*.temp
+*.pdb
+
+# Local restaurant databases (including SQLite WAL and SHM files)
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.sqlite-*
+*.db
+*.db-*
+*.db3
+*.db3-*
+*.s3db
+*.sqlitedb
+*.sqlite-journal
+*.db-journal
+
+# User-generated restaurant data and artifacts
+Backups/
+Backup/
+Exports/
+Receipts/
+Invoices/
+LocalData/
+RestaurantData/
+Images/
+RestaurantBackup_*.zip
+BeforeRestore_*.zip
+*.bak
+*.backup
+*.zip
+*.csv
+*.pdf
+
+# Secrets and machine-local overrides
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
+*.key
+secrets.json
+appsettings.Local.json
+appsettings.Development.local.json
+
+# OS / miscellaneous
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Keep source assets and documentation in version control:
+# Assets/restaurant.ico, .github/, *.cs, *.csproj, *.sln, README*.md

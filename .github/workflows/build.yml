@@ -1,0 +1,18 @@
+name: Build Windows desktop application
+on:
+  push:
+  pull_request:
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Install .NET 10
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+      - name: Restore
+        run: dotnet restore RestaurantManagementSystem.csproj
+      - name: Build
+        run: dotnet build RestaurantManagementSystem.csproj --configuration Release --no-restore

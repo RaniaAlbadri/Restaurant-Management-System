@@ -154,9 +154,6 @@ RestaurantManagementSystem/
 ├── RestaurantManagementSystem.csproj
 ├── RestaurantManagementSystem.sln
 ├── README.md                      # Project documentation (English)
-├── README_AR.md                   # Project documentation (Arabic)
-├── UPGRADE_AR.md                  # Earlier version upgrade notes
-├── UPGRADE_V3_AR.md               # Feature update and testing notes
 └── .gitignore                     # Excludes local/user data and build artifacts
 ```
 
@@ -209,12 +206,7 @@ Shortcuts are handled by the main form and may depend on the signed-in user's ro
 - Restaurant data persists locally; use the built-in backup/restore feature to safeguard it.
 - The project does **not** contain a packaged installer or published EXE. Open and run the source in Visual Studio.
 - Unit tests are not included in the supplied source tree; the repository has a **build** workflow rather than an automated end-to-end test suite.
-- Screenshots can be added later under `docs/screenshots/` using images from the tested application, without including real customer details.
+- Screenshots can be added later under `screenshots/` using images from the tested application, without including real customer details.
 
-## Arabic documentation
-
-For an Arabic guide to running the program and details of the later feature additions, see [`README_AR.md`](README_AR.md) and [`UPGRADE_V3_AR.md`](UPGRADE_V3_AR.md).
-
----
 
 **Restaurant Management System** — a C# Windows Forms portfolio project focused on practical restaurant workflows, relational data, and desktop UI development.
